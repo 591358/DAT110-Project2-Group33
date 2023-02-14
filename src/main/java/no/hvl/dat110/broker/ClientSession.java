@@ -5,7 +5,10 @@ import no.hvl.dat110.messages.MessageUtils;
 import no.hvl.dat110.messagetransport.Connection;
 
 public class ClientSession {
-
+	
+	//TODO:IMPORTANT
+	//The methods in this class must be used when the broker is to receive and send messages to a connected client.
+	
 	private String user;
 	
 	// underlying message transport connection
